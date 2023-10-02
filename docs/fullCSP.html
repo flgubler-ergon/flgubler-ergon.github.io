@@ -1,5 +1,11 @@
+<!-- ================================================================== -->
+<!-- This html file is to show the behavior with the full, original CSP -->
+<!-- Beware: this file is (different than index.html) not updated on build! -->
+<!-- for loading this to github-pages, the names of the JS- and CSS-Files at the bottom need to be updated manually -->
+<!-- ================================================================== -->
+
 <!doctype html>
-<html lang="en" data-critters-container>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>PivotAngular</title>
@@ -7,13 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!--  CSP Original -->
-<!--  <meta http-equiv="Content-Security-Policy" content="default-src 'self' ws:; style-src 'self' 'unsafe-inline'; img-src 'self' data:; script-src 'self'; object-src 'none'; trusted-types angular dompurify default webpack-dev-server#overlay; require-trusted-types-for 'script'">-->
-
-  <!--  CSP Partially reduced: removed require-trusted-types-for -->
-<!--  <meta http-equiv="Content-Security-Policy" content="default-src 'self' ws:; style-src 'self' 'unsafe-inline'; img-src 'self' data:; script-src 'self'; object-src 'none'; trusted-types angular dompurify default;">-->
-
-  <!--  CSP Partially reduced: removed `script-src 'self'` `default-src 'self' ws:` -->
-  <meta http-equiv="Content-Security-Policy" content="style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none'; trusted-types angular dompurify default webpack-dev-server#overlay; require-trusted-types-for 'script'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' ws:; style-src 'self' 'unsafe-inline'; img-src 'self' data:; script-src 'self'; object-src 'none'; trusted-types angular dompurify default webpack-dev-server#overlay; require-trusted-types-for 'script'">
 
   <!--  Other headers -->
   <meta http-equiv="Permission-Policy" content="accelerometer=(), autoplay=(), camera=(), clipboard-read=(), clipboard-write=(self), display-capture=(), encrypted-media=(), fullscreen=(self), geolocation=(), gyroscope=(), hid=(), idle-detection=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), usb=(), xr-spatial-tracking=()">
@@ -27,8 +27,9 @@
 <!--  <meta http-equiv="X-FRAME-OPTIONS" content="SAMEORIGIN">-->
 
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<style>:root{--fm-version:"2.9.60"}body{margin:0}</style><link rel="stylesheet" href="styles.9974f484d716c7bc.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.9974f484d716c7bc.css"></noscript></head>
+</head>
 <body>
   <app-root></app-root>
+</body>
 <script src="runtime.739309906c42be06.js" type="module"></script><script src="polyfills.b67addc4b08001d2.js" type="module"></script><script src="main.684d1a4bff3cee6e.js" type="module"></script></body>
 </html>
